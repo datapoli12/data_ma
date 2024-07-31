@@ -362,6 +362,9 @@ def get_water_bill(num_gallons):
    return bill 
 print(get_water_bill(10000))
 print(get_water_bill(25000))
+
+###########################################################################################################################################
+
 # define the function
 def get_phone_bill(gb):
     gb_price = 100 * abs(15 - gb)
@@ -374,6 +377,9 @@ print(get_phone_bill(10))
 print(get_phone_bill(20))
 print(get_phone_bill(10.8))
 print(get_phone_bill(15.1))
+
+###########################################################################################################################################
+
 # Data structures: Intro to lists
 courses = ["microeconomics", "macroeconomics", "linear algebra", "math", "english", "statistics", "economics", "economic history", "data science", "econometrics", "finance", "accounting", "marketing"]
 
@@ -387,6 +393,8 @@ print("my arsenal:", courses[3:13:2])
 print("the first 5 courses:", courses[:5])
 print("the last 5 courses:", courses[-5:])
 print("courses", courses[:])
+
+###########################################################################################################################################
 
 # to remove an item from a list with we use : .remove()
 courses.remove("microeconomics")
