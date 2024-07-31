@@ -232,6 +232,8 @@ print(the_one == the_two)
 print(the_one != the_two)
 print(the_one >= 3)
 
+###########################################################################################################################################
+
 # define the function
 def evaluate_temp(T):
     #check if the temperature is too high or too low
@@ -242,6 +244,8 @@ def evaluate_temp(T):
     return message
 print(evaluate_temp(43))
 print(evaluate_temp(27))
+
+###########################################################################################################################################
 
 # other ways
 def evaluate_temp(T):
@@ -254,6 +258,8 @@ def evaluate_temp(T):
 print(evaluate_temp(36))
 print(evaluate_temp(39))
 
+###########################################################################################################################################
+
 # define the function
 def evaluate_temp_with_elif(T):
     if T > 38:
@@ -264,6 +270,8 @@ def evaluate_temp_with_elif(T):
         message = "the temperature is too low"
     return message
 print(evaluate_temp_with_elif(33))
+
+###########################################################################################################################################
 
 #define the function
 def tax_payment(income):
@@ -276,6 +284,7 @@ print(tax_payment(10000))
 print(tax_payment(9000))
 print(tax_payment(15000))
 
+###########################################################################################################################################
 
 from datetime import*
 # define the  function
@@ -302,6 +311,9 @@ print(the_best_choice(True, time(12, 00), "monday"))
 print(the_best_choice(False, time(12, 30), "saturday"))
 print(the_best_choice(False, time(22, 30), "saturday"))
 print(the_best_choice(False, time(22, 30), "thursday"))
+
+###########################################################################################################################################
+
 # define the function
 def get_grade(score):  
     if score >= 90:
@@ -323,6 +335,9 @@ print(get_grade(101))
 print(get_grade(0))
 print(get_grade(-12))
 print(get_grade(4.5))
+
+###########################################################################################################################################
+
 # define the function
 def cost_of_project(engraving, solid_gold):
     if solid_gold ==True:
