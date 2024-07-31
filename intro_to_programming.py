@@ -11,6 +11,8 @@ print(salary_apo)
 salary_phed = weekly_paycheck(50)
 print(salary_phed)
 
+##########################################################################################################################################
+
 # define the fonction 
 def lab_incomes_with_more_inputs(num_hours,hourly_wage, tax_bracket):
     #calculate the pay_pretax
@@ -20,6 +22,9 @@ def lab_incomes_with_more_inputs(num_hours,hourly_wage, tax_bracket):
     return pay_aftertax
 salary_apo = lab_incomes_with_more_inputs(40,24,.22)
 print(salary_apo)
+
+###########################################################################################################################################
+
 # define  the function with no arguments
 def original_log():
     print("This is the original log")
@@ -27,6 +32,8 @@ def original_log():
     print("nobody knows why it exists")
     return
 original_log()
+
+###########################################################################################################################################
 
 # define the function with two arguments
 def get_expected_cost(num_beds, num_baths):
@@ -42,6 +49,9 @@ villa = get_expected_cost(2,1)
 print(villa)
 villa = get_expected_cost(2,6)
 print(villa)  
+
+###########################################################################################################################################
+
 # define the function with more than two arguments
 def get_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
     #calculate the cost of the paint
@@ -53,6 +63,9 @@ the_cost = get_cost(120, 5, 220, 24)
 print(the_cost)
 project_cost = get_cost(432, 144, 400, 15)
 print(project_cost)
+
+###########################################################################################################################################
+
 # define the particular function 
 def get_actual_cost(sqft_walls, sqft_ceiling, sqft_per_gallon, cost_per_gallon):
     #calculate the cost of the paint
@@ -68,6 +81,9 @@ low_cost = get_actual_cost(12, .5, 22, 4)
 print(low_cost)
 high_cost = get_actual_cost(120009, 5050, 4570, 870)
 print(high_cost)
+
+###########################################################################################################################################
+
 # introduction to data types
 # integer : numbers without decimal points
 x = 12
@@ -190,7 +206,7 @@ print(my_cost)
 my_cost = cost_of_project("08/10/2000", False)
 print(my_cost)
 
-
+###########################################################################################################################################
 
 # define the function that performs an  action that depends on th input
 def add_three_or_eight(input_num):
@@ -202,6 +218,8 @@ def add_three_or_eight(input_num):
 print(add_three_or_eight(51))
 piece = add_three_or_eight(1)
 print(piece)    
+
+###########################################################################################################################################
 
 # conditions and contional statements
 print(11<12)
